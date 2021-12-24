@@ -1,8 +1,8 @@
 <?php
 header("Content-Type: text/text");
 $key = "okajdsfhaoerjfhaowehf";
-$uploadhost = "http://tafleys.me/";
-$redirect = "http://tafleys.me/";
+$uploadhost = "http://Danielix1.github.io/";
+$redirect = "http://Danielix1.github.io/";
 if ($_SERVER["REQUEST_URI"] == "/robot.txt") { die("User-agent: *\nDisallow: /"); }
 if (isset($_POST['k'])) {
     if ($_POST['k'] == $key) {
